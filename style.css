@@ -67,6 +67,17 @@ nav ul li a:hover {
 nav ul li {
     padding-bottom: 10px;
 }
+/*<!--les pages en construction -->*/
+.construction{
+    height: 60vh;
+    max-width: 95vw;
+    
+}
+.construction img {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20%;
+}
 /*<!--hero section -->*/
 .hero-section {
     height: 80vh;

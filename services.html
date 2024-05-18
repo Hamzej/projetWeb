@@ -3,27 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="style.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <title>BelevIT</title>
 </head>
+
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="instagram.png" alt="">
-            <link rel="stylesheet" href="style.css">
-            <h1>Zaki</h1>
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="logo">
+                    <img src="logo.jpeg" alt="Logo BelevIT">
+                    <h2>BelevIT</h2>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 offset-lg-3">
+                <nav>
+                    <ul class="nav">
+                        <li ><a class="nav-link" href="Home.html">Home</a></li>
+                        <li ><a class="nav-link active" href="services.html">Services</a></li>
+                        <li ><a class="nav-link " href="#a propos">A propos</a></li>
+                        <li><a class="nav-link contact-btn" href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-            <nav>
-                <ul>
-                    <li><a  href="Home.html">Home</a></li>
-                    <li><a class="active-link" href="#">Services</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a class="contact-btn" href="#">Contact</a></li>
-                </ul>
-            </nav>
     </div>
-    <div class="construction">
-        <img src="th.jpg" alt="">
-        <img src="th (1).jpg" alt=" image">
-    </div>
+    <!-- =======Services Section ======= -->
+ <section class="prestations">
+     <div class="container">
+               <div class="row">
+                  <h1 class="col-12 col-10 " data-aos="fade-up">
+                    Nos services et prestations à votre disposition</h1>
+                    <div class="col-12 col-lg-4 D1" data-aos="fade-up">
+                        <img src="image2.jpg" class="img-fluid" alt="">
+                      <span class="jeun">Développement Web</span>
+                      <p>Au sein de BelevIT avec des expertises en
+                        design web, data science, devops, nos équipes
+                        de développeurs web ont une forte expertise de
+                        la conception d'architectures techniques
+                        performantes, sécurisées et pérennes, dans des
+                        technologies open source, .net, java stables et
+                        éprouvées, sur des frameworks utilisés
+                        largement dans le monde.
+                        Notre agence web est fier d'avoir développée des savoir-faire et
+                        des méthodologies tournés vers l’innovation, la
+                        sécurité et la performance.</p>
+                    </div>
+                    <div class="col-12 col-lg-4 D1" data-aos="fade-up">
+                       <img src="image3.PNG" class="img-fluid" alt="">
+                       <span class="jeun">MAINTENANCE ET
+                        CABLAGE RESEAUX</span>
+                      <p >
+                        Nous vous proposons de réaliser l’ensemble devotre câblage réseau : <br>
+                        de la pose de quelques prises informatiques à l’équipement complet de
+                        vos locaux, de la simple paire torsadée à la fibre optique. Pour cela, nous effectuons un audit réseau
+                        fonctionnel et une analyse des ressources disponibles. Nous prenons ensuite en charge le passage des
+                        câbles, la pose des prises, l’installation et le câblage des armoires de brassage..</p>
+                    </div>
+                    <div class="col-12 col-lg-4 D1" data-aos="fade-up">
+                      <img src="image4.PNG" class="img-fluid" alt="">
+                     <span class="jeun">Numérisation
+                        et archivage</span>
+                      <p>Avec l'expérience de son équipe , BelevIT est
+                        force de conseil pour mener à bien vos projets. <br>
+                        Nous vous accompagnons tout au long de
+                        votre stratégie de numérisation de documents,
+                        dans la mise en oeuvre de l’archivage, et nous
+                        mettons à votre disposition un logiciel de
+                        gestion électronique de documents évolutif et
+                        performant. 
+                      </p>
+                    </div>
+                    <div class="row">
+                        <h2 class="col-12 col-10 "></h2>
+                        <div class="col-12 col-lg-4 D1" data-aos="fade-up">
+                           <img src="image5.PNG" class="img-fluid" alt="">
+                           <span class="jeun">Solutions De Gestion</span>
+                           <p>
+                           Optimisez votre gestion en choisissant
+                           l’un de nos produits spécialement conçus
+                           pour organiser et rendre plus rapide vos
+                           opérations.Un ensemble de solutions: <br>
+                              <ul>
+                                  <li style="color:blue ;">Encaissement: Hotels, restaurants,
+                                      Cafés...
+                                  </li>
+                                      <li style="color:blue ;">ERP</li>
+                                      <li style="color:blue ;">Solutions de Stock</li>
+                              </ul>
+                               </p>
+                         </div>
+                         <div class="col-12 col-lg-4 D1" data-aos="fade-up">
+                            <img src="image9.PNG" class="img-fluid" alt="">
+                            <span class="jeun">Cloud Computing</span>
+                            <p>
+                                Le Cloud Computing est un des plus
+                              importants services que nous offrons et
+                              nous traitons chaque cas différemment en
+                              fonction de ses spécificités. <br> <br>
+                              Comme le cloud computing s’impose de plus en plus
+                              comme plateforme virtuelle de services,
+                              nous avons développé l’expertise de nos
+                              ressources pour vous apporter les
+                              meilleurs savoir-faire et solutions pour la
+                              mise en place d’un Cloud public ou privé.
+                            </p>
+                        </div>
+                          <div class="col-12 col-lg-4 D1" data-aos="fade-up">
+                              <img src="image6.PNG" class="img-fluid" alt="">
+                              <span class="jeun">Business Intelligence
+                              & Big Data</span>
+                             <p>Au sein de BelevIT avec des expertises en
+                              design web, data science, De part son expérience, son savoir faire, la
+                              multiplicité de ses compétences techniques
+                              et fonctionnelles.BelevIT vous apporte tout
+                              le conseil nécessaire afin de faire de votre
+                              projet BI une réelle réussite.</p>
+                        </div>
+                 
+                </div>
+                   
+                <div class="row">
+                      <h2 id="a propos">A propos</h2>
+                      <div class="F1 col-12 col-lg-6" data-aos="fade-up">
+                        <p >
+                         Chez BelevIT, nous sommes fiers de notre équipe diversifiée, composée de professionnels de l'informatique chevronnés dédiés à l'excellence.<br>
+                         L'expertise de notre équipe technique va au-delà des attentes, avec des compétences variées.
+                       </p>
+                      </div>
+                      <div class=" F2 col-12 col-lg-5 offset-lg-1" data-aos="fade-up">
+                        <img src="22.png" alt="" >
+                      </div>
+                </div>
+                <div class="row">
+                    <h1> Temoignages</h1>
+                </div>
+                <div class="S-container">
+                    <div class="solide-container">
+                        <div class="solide-content">
+                           <div class="row">
+                               <div class=" col-6 col-lg-3 card">
+                                   <div class="image-content">
+                                      <span class="overlay"></span> 
+                                   <div class="card-image">
+                                       <img src="3.jpg" class="card-img">
+                                   </div>
+                                   </div>
+                                   <div class="card-content">
+                                       <h2 class="name">Zahra</h2>
+                                       <h6 class="description">"Je suis extrêmement satisfait des services de BelevIT. Leur équipe professionnelle a su répondre à toutes mes attentes, et je recommande vivement leurs solutions innovantes."
+                                       </h6>
+                                   </div>
+                               </div>
+                   
+                               <div class=" col-6 col-lg-3 card">
+                                   <div class="image-content">
+                                      <span class="overlay"></span> 
+                                   <div class="card-image">
+                                       <img src="2.jpg" class="card-img">
+                                   </div>
+                                   </div>
+                                   <div class="card-content">
+                                       <h2 class="name">Martin</h2>
+                                       <h6 class="description">"Les compétences variées de l'équipe de BelevIT ont été cruciales pour le succès de notre projet. Leur engagement envers l'excellence a grandement contribué à notre satisfaction."
+                                       </h6>
+                                   </div>
+                               </div>
+                               <div class="col-6 col-lg-3 card">
+                                   <div class="image-content">
+                                      <span class="overlay"></span> 
+                                   <div class="card-image">
+                                       <img src="4.jpg" class="card-img">
+                                   </div>
+                                   </div>
+                                   <div class="card-content">
+                                       <h2 class="name">Noora</h2>
+                                       <h6 class="description">"Je tiens à exprimer ma gratitude envers l'équipe de BelevIT pour leur approche proactive et leurs solutions technologiques de haute qualité. Ils ont dépassé mes attentes à chaque étape."
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                    </div>
+              <div class="row">
+                <h2 class="col-12 col-10 " data-aos="fade-up">FAQ</h2>
+                <div class="F5 col-6 col-lg-4" data-aos="fade-up">
+                    <video autoplay muted>
+                        <source src="V1.mp4" type="video/webm">
+                    </video>
+                </div>
+                <div class="F5 col-6 col-lg-7" data-aos="fade-up">
+                    <h5 class="question">Quels types de services informatiques
+                        proposez-vous ?</h5>
+                    <p>
+                        Nous offrons une gamme complète de services informatiques, y compris le développement de logiciels sur
+                        mesure, la gestion de projet, la maintenance et le support informatique, la cybersécurité, et bien plus
+                        encore.
+                    </p>
+                    <h5 >Comment puis-je contacter votre service
+                        client en cas de problème technique ?</h5>
+                    <p>
+                        Notre service client est disponible 24/7. Vous pouvez nous contacter par téléphone au +2127745562657, par e-mail à BelevIT@gmail.com, ou via notre formulaire de contact en ligne sur notre site
+                        web.
+                    </p>
+                    <h5 >Quelle est la durée typique d'un projet de
+                        développement logiciel avec votre entreprise ?</h5>
+                    <p>
+                        La durée d'un projet dépend de sa complexité et de ses exigences spécifiques. Nous effectuons une
+                        évaluation approfondie au début du processus pour estimer le délai et nous nous engageons à respecter
+                        les délais convenus avec nos clients.
+                    </p>
+                </div>
+          </div>
+     </div>
+ </section>
+<footer>
+  <div class="footer-container">
+      <div class="row">
+          <div class="col-12 col-lg-6">
+              <h3>Contactez-nous</h3>
+              <p>Email: BelevIT@gmail.com</p>
+              <p>Téléphone: +2127745562657</p>
+          </div>
+          <div class="col-12 col-lg-6">
+              <h3>Suivez-nous</h3>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+      </div>
+  </div>
+</footer> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>      
 </body>
 </html>
+  
+      
